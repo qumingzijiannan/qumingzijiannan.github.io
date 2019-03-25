@@ -1,0 +1,107 @@
+body,html,div,ul,li,h1,h2,h3,h4,h5,h6,p,hr,input,label{
+	margin: 0;
+	padding: 0;
+}
+input,button{
+	outline: none
+}
+
+
+
+/* 头部 */
+.header{
+	width: 9.8rem;
+	height: 2.6rem;
+	background-color: #0085ff;
+}
+.header_top{
+	width: 4rem;
+	height: .5rem;
+	padding: .5rem 0 .3rem .3rem;
+}
+.location{
+	float: left;
+}
+.header_top h3{
+	font-size: .45rem;
+	line-height: .48rem;
+	color: #fff;
+	margin-left: .1rem;
+	float: left;
+}
+.header_top i{
+	font-size: .3rem;
+	color: #fff;
+	float: left;
+	line-height: .5rem;
+	margin-left: .2rem;
+}
+.search{
+	width: 9rem;
+	height: 1rem;
+	margin: 0 auto;
+}
+.search img{
+	width: 9rem;
+}
+
+
+
+/* 中间内容 */
+.content{
+	width: 5.2rem;
+	margin: 0 auto;
+	text-align: center;
+}
+.index_img{
+	width: 5.2rem;
+}
+.content p{
+	font-size: .45rem;
+	text-align: center;
+	color: #666;
+}
+.content button{
+	width: 3.12rem;
+	height: 1rem;
+	background-color: #56d176;
+	color: #fff;
+	font-size: .4rem;
+	border: none
+}
+
+
+
+/* 底部 */
+.footer{
+	width: 9.8rem;
+	height: 1.3rem;
+	background-color: #fff;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	overflow: hidden;
+	box-shadow: 0 -0.02rem 0.1rem rgba(0,0,0,.1);
+}
+.footer a{
+	position: relative;
+	display: block;
+	width: 1rem;
+}
+.footer_img{
+	position: absolute;
+	width: 1rem;
+}
+.footer a p{
+	text-align: center;
+	padding-top: .8rem;
+	font-size: .3rem;
+	color: #8e8e93;
+}
+.footer_img2{
+	top: .15rem;
+	left: .15rem;
+	position: absolute;
+	width: .7rem;
+}
